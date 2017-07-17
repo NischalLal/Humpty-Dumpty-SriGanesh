@@ -1,13 +1,54 @@
 {% load staticfiles %}
 <!DOCTYPE html>
-<html>
-<head>
-	<title>Nischal Lal Shrestha</title>
-</head>
-<body>
-	<h1>Nischal Lal Shrestha</h1>
-	<h3>LOVE EVERYTHING THAT MAKE ME MORE HUMAN</h3>
-	<h4>Living in Kathmandu, Nepal</h4>
-	<h4>Part time Student at NCIT, Lalitpur, Nepal</h4>
-</body>
+<html lang = "en">
+  <head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width = device-width, initial-scale = 1.0, minimum-scale = 1.0, maximum-scale = 1.0, user-scalable = no">
+   
+    <!-- css to be filled -->
+    <link rel = "stylesheet" href = "{% static 'css/main.css' %}">
+  
+
+  </head>
+	  <body>
+	  	<div class = "container">
+		
+			<div class = "left-part">
+				<h1 class = "full-name"><a href = "about.html">Nischal Lal Shrestha</a>
+				<!--Use django url later-->	
+			</div>
+
+			<!-- ............................ -->
+			
+			<div class = "middle-part">
+				<img src="{% static "MSP_Main_12.jpg" %}" alt="Picture of Nischal" />
+			</div>
+			
+
+			<!-- ............................. -->
+
+			<div class = "right-part">
+				
+		  			<ul class = "nav_menu">
+		  				<li><a href = "home.html">Home</a></li><!-- Use django url later -->
+		  				<li><a href = "projet_list.html">Projects</a></li>
+		  				<li><a href = "post_list.html">Blog</a></li>
+		  				<li><a href = "contact.html">Contact</a></li>
+		  				<li><a href = "about.html">About Me</a></li>
+		  			</ul>
+	  				<div class = "clear"></div>
+	  				
+
+	  			<div id = "intro-line">
+					<h1 class = "full-name"><a href = "about.html">Nischal <span>Lal</span> Shrestha</a></h1><!--Use django url -->
+					<p class = "bio">LOVE EVERYTHING THAT MAKES ME MORE HUMAN</p>
+					<p class = "current-status">Living in Kathmandu, Nepal<br>Studying at NCIT</p>
+
+	  			</div>
+			</div>
+			<!-- ........................... -->
+	  		
+	 </div>
+
+	  </body>
 </html>

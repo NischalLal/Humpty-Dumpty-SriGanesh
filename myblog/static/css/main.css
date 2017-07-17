@@ -1,0 +1,102 @@
+html, body{
+	width: 100%;
+	height: 100%;
+	background: grey;
+	font-family: arial;
+}
+
+.container{
+	
+	background: green;
+	height: 100%;
+}
+
+
+
+
+
+.left-part {
+	padding-left: 10px;
+	background: blue;
+	border: 2px solid blue;
+	width: 30%;
+	height: 100%;
+	float: left;
+	
+	box-sizing: border-box;
+}
+
+.left-part .full-name a{
+	text-decoration: none;
+	font-size: 140%;
+	color: white;
+}
+
+.middle-part img{
+	position: absolute;
+	top: 15%;
+	left: 330px;
+	height: 430px;
+	width: 350px;
+	box-shadow: 9px 0px 5px 6px #BCC8B5;
+	
+}
+
+
+
+.right-part{
+	padding-left: 10px;
+	background: white;
+	border: 2px solid white;
+	width: 70%;
+	height: 100%;
+	float: right;
+	box-sizing: border-box;
+	padding-left: 300px;
+	padding-top: 20px;
+}
+
+.right-part .nav_menu li{
+	border: .5px solid black;
+	padding: 2px 5px 2px 5px;
+	display: inline;
+	margin-left: 15px;
+	font-size: 150%;
+	background: black;
+	
+}
+
+.right-part .nav_menu li a{
+	text-decoration: none;
+	color: white;
+
+}
+
+#intro-line{
+	margin-top: 130px;
+	padding-left: 40px;
+}
+#intro-line .full-name a span{
+	color: red;
+}
+
+#intro-line .full-name a{
+	padding-left: 10px;
+	text-decoration: none;
+	font-size: 150%;
+	color: black;
+}
+
+#intro-line .bio{
+	font-size: 35px;
+}
+
+#intro-line .current-status{
+	margin-top: 20px;
+	font-size: 35px;
+}
+
+
+
+
+
