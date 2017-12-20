@@ -3,7 +3,7 @@ from .models import Post, Project, SocialSite, About, Contact
 
 # Create your views here.
 
-
+# Home
 def home(request):
 	return render(request, 'myblog/home.html', {})
 
