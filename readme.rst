@@ -31,11 +31,7 @@ More than a long speech, here the list of the main features:
 * `Advanced search engine`_
 * Prepublication and expiration
 * `Custom templates for various contents`_
-* Editing in `Markdown`_, `Textile`_ or `reStructuredText`_
-* Widgets (Popular entries, Similar entries, ...)
-* Spam protection with `Akismet`_, `TypePad`_ or `Mollom`_
-* Admin dashboard
-* `MetaWeblog API`_
+* Editing in `
 * Ping Directories
 * Ping External links
 * `Bit.ly`_ support
@@ -46,7 +42,7 @@ More than a long speech, here the list of the main features:
 * Tags autocompletion
 * `Entry model extendable`_
 * Pingback/Trackback support
-* `Blogger conversion utility`_
+* `Blogger conversion utility`
 * `WordPress conversion utility`_
 * `WYMeditor`_, `TinyMCE`_ , `CKEditor`_ and `MarkItUp`_ support
 * Efficient database queries
@@ -55,7 +51,7 @@ More than a long speech, here the list of the main features:
 * `Windows Live Writer`_ compatibility
 
 Examples
-========
+=======
 
 Take a look at the online demo at: http://demo.django-blog-zinnia.com/
 or you can visit these websites who use Zinnia.
@@ -98,14 +94,7 @@ More information and help available at these URLs:
 .. _`Sitemaps`: http://docs.django-blog-zinnia.com/en/latest/getting-started/configuration.html#module-zinnia.sitemaps
 .. _`Advanced search engine`: http://docs.django-blog-zinnia.com/en/latest/topics/search_engines.html
 .. _`Custom templates for various contents`: http://docs.django-blog-zinnia.com/en/latest/getting-started/configuration.html#templates-for-entries
-.. _`Markdown`: http://daringfireball.net/projects/markdown/
-.. _`Textile`: http://redcloth.org/hobix.com/textile/
-.. _`reStructuredText`: http://docutils.sourceforge.net/rst.html
-.. _`Akismet`: https://github.com/Fantomas42/zinnia-spam-checker-akismet
-.. _`TypePad`: https://github.com/Fantomas42/zinnia-spam-checker-akismet#using-typepad-antispam
-.. _`Mollom`: https://github.com/Fantomas42/zinnia-spam-checker-mollom
-.. _`MetaWeblog API`: http://www.xmlrpc.com/metaWeblogApi
-.. _`Bit.ly`: https://github.com/Fantomas42/zinnia-url-shortener-bitly
+.. _`/Fantomas42/zinnia-url-shortener-bitly
 .. _`Twitter`:  https://github.com/Fantomas42/zinnia-twitter
 .. _`Gravatar`: http://gravatar.com/
 .. _`Django-CMS`: http://docs.django-blog-zinnia.com/en/latest/getting-started/configuration.html#django-cms
@@ -130,5 +119,4 @@ More information and help available at these URLs:
 .. _`Documentation`: http://docs.django-blog-zinnia.com/
 .. _`Travis CI server`: http://travis-ci.org/Fantomas42/django-blog-zinnia
 .. _`Coverage report`: https://coveralls.io/r/Fantomas42/django-blog-zinnia
-.. _`Google Group`: http://groups.google.com/group/django-blog-zinnia/
-.. _`GitHub Issues`: https://github.com/Fantomas42/django-blog-zinnia/issues/
+.. _`Google Group`: http:/
